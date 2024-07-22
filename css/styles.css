@@ -9,6 +9,9 @@ body {
     flex-direction: column;
 }
 
+header {
+    background-color: #1F2937;
+}
 button {
     background-color: #3882F6;
     color: white;
@@ -22,16 +25,21 @@ footer {
     background-color: #1F2937;
 }
 
-.header {
-    background-color: #1F2937;
+.header_container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 16px;
+    margin: 0px auto;
+    max-width: 1200px;
 }
 
 .header_left {
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .header_logo {
@@ -59,10 +67,17 @@ footer {
     flex-direction: column;
 }
 
+.item_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
 .item_one {
     background-color: #1F2937;
-    display: flex;
-    gap: 32px;
 }
 
 .item_one_left {
@@ -82,9 +97,9 @@ footer {
     font-size: 18px;
 }
 
-.content_img {
+.item_one_right {
     width: 300px;
-    height: 300px;
+    flex: 1;
 }
 
 .item_two {
@@ -115,7 +130,7 @@ footer {
 
 }
 
-.container {
+.item_four_container {
     background-color: #3882F6;
     color: #E5E7EB;
 
