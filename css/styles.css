@@ -99,17 +99,40 @@ footer {
 
 .item_one_right {
     width: 300px;
-    flex: 1;
+    
 }
 
 .item_two {
-
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    padding: 16px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
 }
 
 .packages {
-
+    display: flex;
+    gap: 32px;
 }
 
+.package {
+    width: 200px;
+    flex: 1;
+}
+
+.package_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 5px solid #E5E7E8;
+}
+
+.package_description {
+    text-align: center;
+}
 .item_three {
     background-color: #E5E7EB;
 }
