@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -11,6 +12,10 @@ body {
 button {
     background-color: #3882F6;
     color: white;
+    display: inline-block;
+    padding: 10px 30px; /* Adjust padding as needed */
+    border-radius: 5px;
+    font-size: 1.15em;
 }
 
 footer {
@@ -19,6 +24,9 @@ footer {
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
 }
 
 .header_left {
@@ -32,7 +40,11 @@ footer {
 }
 
 .header_right {
+    display: flex;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 .header_link {
@@ -42,11 +54,21 @@ footer {
 }
 
 .main {
-
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .item_one {
-    background-color: #1F2937;;
+    background-color: #1F2937;
+    display: flex;
+    gap: 32px;
+}
+
+.item_one_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .hero_first {
@@ -97,4 +119,8 @@ footer {
     background-color: #3882F6;
     color: #E5E7EB;
 
+}
+
+.footer {
+    color: #E5E7EB;
 }
